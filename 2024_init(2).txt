@@ -298,29 +298,6 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 311,
-        "fields": {
-            "first_name": "Spike",
-            "last_name": "Cohen",
-            "election": 21,
-            "party": "Libertarian",
-            "state": "Maryland",
-            "priority": 12,
-            "description": "'",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
         "pk": 312,
         "fields": {
             "first_name": "its",
@@ -622,14 +599,6 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 301,
             "running_mate": 310
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 207,
-        "fields": {
-            "candidate": 302,
-            "running_mate": 311
         }
     },
     {
