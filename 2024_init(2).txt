@@ -298,7 +298,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 312,
+        "pk": 41483,
         "fields": {
             "first_name": "its",
             "last_name": " fartjobenthusiast",
@@ -367,7 +367,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 49999,
+        "pk": 41421,
         "fields": {
             "first_name": "It's",
             "last_name": " thisisahumanboi",
@@ -525,6 +525,29 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 1,
             "running_mate": true
         }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50006,
+        "fields": {
+            "first_name": "It's",
+            "last_name": "Leading_rip214",
+            "election": 21,
+            "party": "Republican",
+            "state": "IDK",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#941100",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://styles.redditmedia.com/t5_czp3aa/styles/profileIcon_9tv5e9ci3w3e1.jpg?width=256&height=256&frame=1&auto=webp&crop=&s=f2d472010512c9b7df5c0f13ed24dfa5d4b9d251",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Leading_rip214 is a conservative pro-trump tct player who despite ideological differences supported Luvv4Kevv's failed bid for TCT subreddit moderator.<p><p>If chosen as your running mate, Leading_rip214 will help win over conservatives who would otherwise support Wall-wave. However, his conservative views would anger both your base and the left, possibly stopping your support from gaining traction.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
     }
 ]
 
@@ -648,6 +671,14 @@ campaignTrail_temp.running_mate_json = [
             "candidate": 302,
             "running_mate": 50005
         }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109944,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 50006
+        }
     }
 ]
 
@@ -661,8 +692,8 @@ campaignTrail_temp.opponents_default_json = [
             301,
             302,
             303,
-            312,
-            49999
+            41483,
+            41421
         ]
     }
 ]
@@ -675,8 +706,8 @@ campaignTrail_temp.opponents_weighted_json = [
             301,
             302,
             303,
-            312,
-            49999
+            41483,
+            41421
         ]
     }
 ]
